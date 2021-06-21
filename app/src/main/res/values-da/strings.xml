@@ -38,20 +38,20 @@
     <string name="text_renter_alarm_code_title">Angiv venligst den nye kode igen for at bekræfte indtastningen</string>
 
     <!-- Preferences -->
-    <string name="preference_summary_security_code">Set the alarm admin code (default is 1234). Used for the default disarm code and to access settings.</string>
-    <string name="preference_title_security_code">Security Code</string>
+    <string name="preference_summary_security_code">Sæt admin kode til alarmen (standard sat til 1234). Koden bruges som standard Afkoblingskode og for at tilgå indstillinger i appen.</string>
+    <string name="preference_title_security_code">Sikkerheds kode</string>
     <string name="preference_title_mqtt_server">MQTT</string>
-    <string name="preference_summary_mqtt_server">MQTT alarm and service settings</string>
+    <string name="preference_summary_mqtt_server">MQTT alarm og service indstillinger</string>
     <string name="preference_title_broker">MQTT Broker</string>
-    <string name="preference_summary_broker">Set MQTT broker service address. For tcp/ssl exclude the prefix (192.168.1.1). For others, include the prefix (http://192.168.1.1).</string>
-    <string name="preference_client_id">Client Id</string>
-    <string name="preference_summary_client_id">Set the client Id if required by service.</string>
-    <string name="preference_tls_connection">SSL/TLS Connection</string>
-    <string name="preference_summary_tls_connection">Listen to broker on port 8883 with SSL/TLS.</string>
+    <string name="preference_summary_broker">Indstil MQTT broker service adresse. Hvis du vil bruge tcp/ssl så undlad præfix (skriv blot f.ex. 192.168.1.1). Hvis det er uden tls, så angiv præxixet (f.eks. http://192.168.1.1).</string>
+    <string name="preference_client_id">Klient Id</string>
+    <string name="preference_summary_client_id">Hvis Klient ID er krævet af servicen, så sæt det her.</string>
+    <string name="preference_tls_connection">SSL/TLS Forbindelse</string>
+    <string name="preference_summary_tls_connection">Lyt til broker på port 8883 hvis du benytter SSL/TLS.</string>
     <string name="preference_title_port">Service Port</string>
-    <string name="preference_summary_port">Set the service port value, usually 8123 unless secure.</string>
-    <string name="preference_title_command_topic">Alarm Command Topic</string>
-    <string name="preference_title_state_topic">Alarm State Topic</string>
+    <string name="preference_summary_port">Indstil portnummeret, normalt er det 8123, med mindre der benyttes TLS.</string>
+    <string name="preference_title_command_topic">Alarm Kommando Topic</string>
+    <string name="preference_title_state_topic">Alarm tilstands Topic</string>
     <string name="preference_summary_command_topic">Set the command topic value to send commands to the MQTT service.</string>
     <string name="preference_summary_state_topic">Set the state topic value to receive messages from the MQTT service.</string>
     <string name="preference_title_username">Username</string>
