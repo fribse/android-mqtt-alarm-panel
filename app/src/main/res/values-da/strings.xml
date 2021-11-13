@@ -52,78 +52,78 @@
     <string name="preference_summary_port">Indstil portnummeret, normalt er det 8123, med mindre der benyttes TLS.</string>
     <string name="preference_title_command_topic">Alarm Kommando Topic</string>
     <string name="preference_title_state_topic">Alarm tilstands Topic</string>
-    <string name="preference_summary_command_topic">Set the command topic value to send commands to the MQTT service.</string>
-    <string name="preference_summary_state_topic">Set the state topic value to receive messages from the MQTT service.</string>
-    <string name="preference_title_username">Username</string>
-    <string name="preference_summary_username">Set the service username (if needed).</string>
-    <string name="preference_title_password">Password</string>
-    <string name="preference_summary_password">Set the service password (if needed).</string>
+    <string name="preference_summary_command_topic">Sæt kommando topic værdi for at sende beskeder til MQTT servicen.</string>
+    <string name="preference_summary_state_topic">Sæt tilstands topic værdi for at modtage beskeder fra MQTT servicen.</string>
+    <string name="preference_title_username">Brugernavn</string>
+    <string name="preference_summary_username">Sæt et brugernavn for servicen (om nødvendigt).</string>
+    <string name="preference_title_password">Kodeord</string>
+    <string name="preference_summary_password">Sæt et kodeord for servicen (om nødvendigt).</string>
     <string name="preference_title_alarm">Alarm</string>
-    <string name="preference_summary_alarm">Alarm code settings</string>
+    <string name="preference_summary_alarm">Alarm kode indstillinger</string>
 
-    <string name="preference_title_weather_settings">Weather</string>
-    <string name="preference_summary_weather_settings">Once activated, the weather settings will appear on the main screen.</string>
+    <string name="preference_title_weather_settings">Vejr</string>
+    <string name="preference_summary_weather_settings">Hvis aktiveret, vil vejr indstillinger blive vist på hovedsiden.</string>
     <string name="preference_title_darksky">DarkSky</string>
-    <string name="preference_summary_darksky">Activate the weather module using the DarkSky service.</string>
-    <string name="preference_title_darksky_api">API Secret</string>
-    <string name="preference_summary_darksky_api">Enter your DarkSky API secret.</string>
+    <string name="preference_summary_darksky">Sætter vejrmodulet til at benytte DarkSky servicen.</string>
+    <string name="preference_title_darksky_api">API Hemmelighed</string>
+    <string name="preference_summary_darksky_api">Angiv din DarkSky API hemmelighed (secret).</string>
     <string name="preference_title_latitude">Latitude</string>
-    <string name="preference_summary_latitude_summary">Edit the location latitude.</string>
-    <string name="preference_title_longitude">Longitude</string>
-    <string name="preference_summary_longitude_summary">Edit the location longitude.</string>
-    <string name="preference_title_units">Use Celsius (°C)</string>
-    <string name="preference_summary_units">Use celsius for temperature values.</string>
+    <string name="preference_summary_latitude_summary">Tilret breddegrad for din lokation.</string>
+    <string name="preference_title_longitude">Længdegrad</string>
+    <string name="preference_summary_longitude_summary">Tilret længdegrad for din lokation.</string>
+    <string name="preference_title_units">Benyt Celsius (°C)</string>
+    <string name="preference_summary_units">Benyt celsius til at vise temperatur værdier.</string>
 
-    <string name="preference_title_display">Display</string>
+    <string name="preference_title_display">Skærm</string>
     <string name="preference_title_screen_saver_settings">Screensaver</string>
-    <string name="preference_summary_screen_saver_settings">When active, uses a built-in clock screen saver.</string>
-    <string name="preference_title_screen_saver">Clock Screen Saver</string>
-    <string name="pref_title_image_client_id">Imgur Client Id</string>
-    <string name="preference_summary_image_client_id">Enter the client id of the Imgur account from https://api.imgur.com.</string>
+    <string name="preference_summary_screen_saver_settings">Når denne er aktiv, benyttes en indbygget ur screensaver.</string>
+    <string name="preference_title_screen_saver">Ur Screen Saver</string>
+    <string name="pref_title_image_client_id">Imgur Klient Id</string>
+    <string name="preference_summary_image_client_id">Engiv klient ID fra din Imgur konto (https://api.imgur.com).</string>
 
-    <string name="preference_title_screen_saver_photo_settings">Photo Screensaver Settings</string>
-    <string name="preference_summary_screen_saver_photo_settings">When active, uses rotating Imgur images for the screensaver.</string>
-    <string name="preference_title_screen_saver_photo">Image Screensaver</string>
+    <string name="preference_title_screen_saver_photo_settings">Foto Screensaver Settings</string>
+    <string name="preference_summary_screen_saver_photo_settings"Når denne er aktiveret, vises billeder løbende fra Imgur som screensaver.</string>
+    <string name="preference_title_screen_saver_photo">Billed Screensaver</string>
 
-    <string name="preference_summary_screen_saver">Use rotating images from Instagram as screensaver.</string>
+    <string name="preference_summary_screen_saver">Viser løbende billeder fra instagram som screensaver.</string>
 
     <string name="preference_title_image_source">Imgur Tag</string>
-    <string name="preference_summary_image_source">Enter an Imgur tag to use for images (example: space, architecture, flowers, or landscape).</string>
-    <string name="preference_title_image_fit">Crop Images</string>
-    <string name="preference_summary_image_fit">Crop the images to fit the screen size.</string>
-    <string name="preference_title_image_rotation">Image Rotation Interval</string>
-    <string name="preference_summary_image_rotation">Time in minutes between image refresh. Currently %1$s.</string>
+    <string name="preference_summary_image_source">Angiv en Imgur tag for at vælge billeder (eksempelvis: space, architecture, flowers, or landscape).</string>
+    <string name="preference_title_image_fit">Beskær billeder</string>
+    <string name="preference_summary_image_fit">Beslær billeder så de passer til skærmstørrelsen.</string>
+    <string name="preference_title_image_rotation">Interval for billed skift</string>
+    <string name="preference_summary_image_rotation">Tid i minutter mellem billed skift. I øjeblikket sat til %1$s.</string>
 
     <string name="preference_title_web_settings">Browser</string>
-    <string name="preference_summary_web_settings">You can load multiple dashboards that are displayed as you swipe right on the main screen. Each dashboard URL is rendered as a webpage.</string>
-    <string name="preference_title_web">Home Automation Dashboards</string>
-    <string name="preference_summary_web">Displays your home automation dashboard by swiping main screen.</string>
-    <string name="preference_title_web_url">Dashboard Address</string>
-    <string name="preference_summary_web_url">Enter the IP address of your home automation dashboard with prefix and port if needed (example: http://ipaddress:port).</string>
-    <string name="preference_web_description">This is an experimental feature. The web page is rendered with Android\'s version of the Chrome Browser and may render differently depending on your Android SDK and WebView versions.</string>
+    <string name="preference_summary_web_settings">Du kan tilføje flere instrumentpaneler som kan skiftes ved at 'swipe' til højre på hovedbilledet. Hvert instrumentpanel er vist som en webside.</string>
+    <string name="preference_title_web">Instrumentpanel for hjemme automatisering</string>
+    <string name="preference_summary_web">Viser dit hjemme automatiserings panel ved at 'swipe' hovedbilledet.</string>
+    <string name="preference_title_web_url">Adresse for instrumentpanel</string>
+    <string name="preference_summary_web_url">Angiv IP adressen for dit hjemme automatiserings instrumentpanel med præfix og port om nødvendigt (f.eks.: http://ipadresse:port).</string>
+    <string name="preference_web_description">Dette er en eksperimentel funktion. Websiden bliver vist med Android\'s version af Chrome Browser kan vises anderledes afhængigt af din Android SDK og WebView version.</string>
 
-    <string name="preference_title_notification">Notifications</string>
-    <string name="preference_summary_notification">Show a system notification if the alarm is triggered or entry detected.</string>
+    <string name="preference_title_notification">Notifikationer</string>
+    <string name="preference_summary_notification">Viser en system notifikation hvis alarmen er udløst eller adgang er detekteret.</string>
 
-    <string name="preference_title_inactivity">Start screen saver after…</string>
-    <string name="preference_summary_inactivity_seconds">After %1$s seconds of inactivity screen dims.</string>
-    <string name="preference_summary_inactivity_minutes">After %1$s minute(s) of inactivity screen dims.</string>
+    <string name="preference_title_inactivity">Start screen saver efter…</string>
+    <string name="preference_summary_inactivity_seconds">Efter %1$s sekunders inaktivititet bliver skærmen dæmpet.</string>
+    <string name="preference_summary_inactivity_minutes">Efter %1$s minutte(r) inaktivitet blier skærmen dæmpet.</string>
 
 
-    <string name="preference_title_notifications">Notifications</string>
-    <string name="preference_title_mqtt_notifications">MQTT Notifications</string>
-    <string name="preference_summary_mqtt_notifications">Display or speak notifications from MQTT messages.</string>
+    <string name="preference_title_notifications">Notificationer</string>
+    <string name="preference_title_mqtt_notifications">MQTT Notificationer</string>
+    <string name="preference_summary_mqtt_notifications">Vis eller oplæs notifikationer fra MQTT beskeder.</string>
 
-    <string name="preference_title_alert">Alert Notifications</string>
-    <string name="preference_title_system_notifications">System Notifications</string>
-    <string name="preference_summary_alert">Example format for the message topic and payload to display alert dialog: \n\n"{\"topic\":\"alarmpanel/command\", \"payload\":\"{\"alert\":\"Hello!\"}\"}"</string>
+    <string name="preference_title_alert">Alarm Notifikationer</string>
+    <string name="preference_title_system_notifications">System Notifikationer</string>
+    <string name="preference_summary_alert">Format eksempel for besked topic og payload for at vise alarm dialog: \n\n"{\"topic\":\"alarmpanel/command\", \"payload\":\"{\"alert\":\"Hello!\"}\"}"</string>
 
-    <string name="preference_tts_voice">TTS Voice</string>
-    <string name="preference_tts">TTS Notifications</string>
-    <string name="preference_summary_tts">Use Google Text-To-Speech to speak the payload value of an MQTT message. (Note: Requires Android Lollipop or above.)</string>
+    <string name="preference_tts_voice">TTS Stemme</string>
+    <string name="preference_tts">TTS Notifikationer</string>
+    <string name="preference_summary_tts">Brug Google Tekst-Til-Tale for at oplæse payload værdien af en MQTT besked. (Obs: Kræver Android i version Lollipop eller nyere.)</string>
 
     <string name="preference_tts_topic">TTS Topic</string>
-    <string name="preference_topic_title">Set Topic Value</string>
+    <string name="preference_topic_title">Sæt Topic værdi</string>
 
 
     <string name="preference_tts_topic_summary">Example format for the message topic and payload to be spoken: \n\n"{\"topic\":\"alarmpanel/command\", \"payload\":\"{\"speak\":\"Hello!\"}\"}"</string>
